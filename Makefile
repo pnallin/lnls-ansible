@@ -79,15 +79,16 @@ ROLES = \
 
 # Playbooks
 PLAYBOOKS = \
+    playbook-control-room-desktops-sirius.yml \
     playbook-control-room-desktops.yml \
+    playbook-ctrl-service.yml \
     playbook-elp-desktops.yml \
     playbook-fac-desktops.yml \
     playbook-reboot.yml \
-    playbook-setup-ssh-key.yml \
-    playbook-control-room-desktops-sirius.yml \
-    playbook-ctrl-service.yml \
-    playbook-nfs-servers.yml \
-    playbook-rfq-desktops.yml
+    playbook-rfq-desktops.yml \
+    playbook-servnfs.yml \
+    playbook-servweb.yml \
+    playbook-setup-ssh-key.yml
 
 # Test variables
 TEST_TARGET = test_
