@@ -20,8 +20,8 @@
     name: lnls-ans-role-epics
 - import_role:
     name: lnls-ans-role-epics7
-- import_role:
-    name: lnls-ans-role-qt
+# - import_role:
+#     name: lnls-ans-role-qt
 # - import_role:
 #     name: lnls-ans-role-java
 # - import_role:
