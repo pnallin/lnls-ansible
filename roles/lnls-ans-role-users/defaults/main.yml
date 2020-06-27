@@ -23,6 +23,7 @@ users:
     uid: 1001
     dirs_in_home:
       - "iocs-log"
+      - "Desktop"
     root: true
     state: present
 
