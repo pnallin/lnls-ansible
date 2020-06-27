@@ -37,6 +37,9 @@ lnlsfac-srv1
 [web_servers]
 lnlsfac-srv1
 
+[local]
+127.0.0.1
+
 # === FAC IOC servers ===
 
 # --- groups and vars ---
