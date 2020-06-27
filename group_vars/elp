@@ -24,6 +24,7 @@ users:
     root: true
     dirs_in_home:
       - "iocs-log"
+      - "Desktop"
     state: present
 
 # Visual Studio Extensions
