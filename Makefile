@@ -138,7 +138,7 @@ deploy-elp-desktops: playbook-elp-desktops.yml tasks-desktops.yml
 		playbook-elp-desktops.yml
 
 deploy-local-desktops: playbook-local-desktops.yml tasks-desktops-local.yml
-	ansible-playbook -u sirius -i hosts -l fac --ask-vault-pass -k --ask-become-pass $(ANSIBLE_EXTRA_VARS) \
+	ansible-playbook -u sirius -i hosts -l local --ask-vault-pass -k --ask-become-pass $(ANSIBLE_EXTRA_VARS) \
 		playbook-local-desktops.yml
 
 deploy-control-room-desktops: playbook-control-room-desktops.yml tasks-desktops.yml
